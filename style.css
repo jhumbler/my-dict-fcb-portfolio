@@ -1,0 +1,43 @@
+body {
+	background-color: white;
+	/*color: white;*/
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+}
+
+/* * select all */
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 35px;
+	text-shadow: 2px 2px white;
+}
+
+/* # to call an id */
+#landing, 
+#gallery {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	color:	white;
+}
+
+h2 {
+	color: #007bff;
+}
